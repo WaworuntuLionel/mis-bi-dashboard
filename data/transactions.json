@@ -1,0 +1,182 @@
+[
+  {
+    "id": "TXN-1001",
+    "date": "2026-06-25T08:30:00Z",
+    "customer": "Budi Santoso",
+    "category": "Electronics",
+    "amount": 12500000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1002",
+    "date": "2026-06-25T09:15:00Z",
+    "customer": "Siti Aminah",
+    "category": "Fashion",
+    "amount": 450000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1003",
+    "date": "2026-06-25T09:45:00Z",
+    "customer": "Dewi Lestari",
+    "category": "Home & Living",
+    "amount": 1850000,
+    "status": "Pending",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1004",
+    "date": "2026-06-24T14:20:00Z",
+    "customer": "Ahmad Subarjo",
+    "category": "Electronics",
+    "amount": 8200000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1005",
+    "date": "2026-06-24T16:05:00Z",
+    "customer": "Rian Hidayat",
+    "category": "Food & Beverage",
+    "amount": 120000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1006",
+    "date": "2026-06-24T17:30:00Z",
+    "customer": "Lina Marlina",
+    "category": "Fashion",
+    "amount": 750000,
+    "status": "Failed",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1007",
+    "date": "2026-06-23T10:10:00Z",
+    "customer": "Eko Prasetyo",
+    "category": "Home & Living",
+    "amount": 3200000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1008",
+    "date": "2026-06-23T11:40:00Z",
+    "customer": "Sari Wijaya",
+    "category": "Food & Beverage",
+    "amount": 350000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1009",
+    "date": "2026-06-23T15:55:00Z",
+    "customer": "Fajar Nugroho",
+    "category": "Electronics",
+    "amount": 15000000,
+    "status": "Completed",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1010",
+    "date": "2026-06-22T09:00:00Z",
+    "customer": "Mega Utami",
+    "category": "Fashion",
+    "amount": 620000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1011",
+    "date": "2026-06-22T13:12:00Z",
+    "customer": "Hendra Wijaya",
+    "category": "Electronics",
+    "amount": 4500000,
+    "status": "Pending",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1012",
+    "date": "2026-06-22T14:45:00Z",
+    "customer": "Yanti Ruslan",
+    "category": "Food & Beverage",
+    "amount": 280000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1013",
+    "date": "2026-06-21T11:20:00Z",
+    "customer": "Andi Pratama",
+    "category": "Home & Living",
+    "amount": 1250000,
+    "status": "Completed",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1014",
+    "date": "2026-06-21T16:30:00Z",
+    "customer": "Rina Astuti",
+    "category": "Fashion",
+    "amount": 890000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1015",
+    "date": "2026-06-20T10:05:00Z",
+    "customer": "Gita Savitri",
+    "category": "Food & Beverage",
+    "amount": 150000,
+    "status": "Failed",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1016",
+    "date": "2026-06-20T14:15:00Z",
+    "customer": "Joko Susilo",
+    "category": "Electronics",
+    "amount": 9500000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1017",
+    "date": "2026-06-19T09:30:00Z",
+    "customer": "Novianti Rahayu",
+    "category": "Home & Living",
+    "amount": 2100000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  },
+  {
+    "id": "TXN-1018",
+    "date": "2026-06-19T13:40:00Z",
+    "customer": "Taufik Hidayat",
+    "category": "Fashion",
+    "amount": 1200000,
+    "status": "Completed",
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "TXN-1019",
+    "date": "2026-06-18T15:20:00Z",
+    "customer": "Indah Permata",
+    "category": "Food & Beverage",
+    "amount": 420000,
+    "status": "Completed",
+    "paymentMethod": "E-Wallet"
+  },
+  {
+    "id": "TXN-1020",
+    "date": "2026-06-18T16:50:00Z",
+    "customer": "Rudi Hermawan",
+    "category": "Electronics",
+    "amount": 5400000,
+    "status": "Completed",
+    "paymentMethod": "Bank Transfer"
+  }
+]
