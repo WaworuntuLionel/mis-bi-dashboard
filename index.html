@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Management Information System - Business Intelligence Dashboard">
+  <title>MIS-BI Dashboard</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Chart.js CDN for visual graphs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <!-- Lucide Icons CDN for sleek UI icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Sidebar Navigation -->
+  <aside>
+    <div class="brand">
+      <div class="brand-icon">BI</div>
+      <div class="brand-name">MIS-BI Panel</div>
+    </div>
+    
+    <ul class="nav-links">
+      <li class="active">
+        <a href="#" id="nav-dashboard">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="nav-transactions">
+          <i data-lucide="arrow-right-left"></i>
+          <span>Transactions</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="nav-analytics">
+          <i data-lucide="line-chart"></i>
+          <span>Analytics</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" id="nav-settings">
+          <i data-lucide="settings"></i>
+          <span>Settings</span>
+        </a>
+      </li>
+    </ul>
+    
+    <div class="sidebar-footer">
+      <p>&copy; 2026 MIS-BI Admin</p>
+    </div>
+  </aside>
+
+  <!-- Main Dashboard Content Panel -->
+  <main>
+    <header>
+      <div class="header-title">
+        <h1 id="main-heading">Sales & Revenue Analytics</h1>
+        <p>Real-time Business Intelligence insights and metrics</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn-refresh" id="refresh-btn" aria-label="Refresh Data">
+          <i data-lucide="rotate-cw"></i>
+          <span>Refresh</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- KPI Metric Cards Grid -->
+    <section class="kpi-container" aria-label="Key Performance Indicators">
+      <!-- Total Revenue -->
+      <div class="kpi-card revenue" id="card-revenue">
+        <div class="kpi-header">
+          <span class="kpi-title">Total Revenue</span>
+          <div class="kpi-icon">
+            <i data-lucide="wallet"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="total-revenue">Rp 0</div>
+        <div class="kpi-change up">
+          <i data-lucide="trending-up"></i>
+          <span>12.4% vs last week</span>
+        </div>
+      </div>
+
+      <!-- Total Transactions -->
+      <div class="kpi-card transactions" id="card-transactions">
+        <div class="kpi-header">
+          <span class="kpi-title">Sales Volume</span>
+          <div class="kpi-icon">
+            <i data-lucide="shopping-bag"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="total-txns">0</div>
+        <div class="kpi-change up">
+          <i data-lucide="trending-up"></i>
+          <span>8.2% vs last week</span>
+        </div>
+      </div>
+
+      <!-- Average Order Value -->
+      <div class="kpi-card average" id="card-average">
+        <div class="kpi-header">
+          <span class="kpi-title">Average Ticket</span>
+          <div class="kpi-icon">
+            <i data-lucide="percent"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="avg-order">Rp 0</div>
+        <div class="kpi-change down">
+          <i data-lucide="trending-down"></i>
+          <span>3.1% vs last week</span>
+        </div>
+      </div>
+
+      <!-- Transaction Success Rate -->
+      <div class="kpi-card success-rate" id="card-success-rate">
+        <div class="kpi-header">
+          <span class="kpi-title">Success Rate</span>
+          <div class="kpi-icon">
+            <i data-lucide="check-circle-2"></i>
+          </div>
+        </div>
+        <div class="kpi-value" id="success-rate">0%</div>
+        <div class="kpi-change up">
+          <i data-lucide="trending-up"></i>
+          <span>1.5% vs last week</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Charts Grid -->
+    <section class="charts-grid" aria-label="Visual Analytics Charts">
+      <!-- Sales Revenue Trend Line Chart -->
+      <div class="chart-card">
+        <h3>Revenue Trend (Completed Transactions)</h3>
+        <div class="chart-wrapper">
+          <canvas id="sales-trend-chart"></canvas>
+        </div>
+      </div>
+
+      <!-- Sales Distribution Category Doughnut Chart -->
+      <div class="chart-card">
+        <h3>Sales Share by Category</h3>
+        <div class="chart-wrapper">
+          <canvas id="category-chart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Transactions Table Card -->
+    <section class="data-card" aria-label="Recent Transactions Table">
+      <div class="table-header">
+        <div class="table-title">
+          <h3>Recent Transactions</h3>
+        </div>
+        <div class="filters-container">
+          <input type="text" class="search-input" id="search-input" placeholder="Search by ID or customer..." aria-label="Search transactions">
+          
+          <select class="filter-select" id="category-filter" aria-label="Filter by category">
+            <option value="All">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home & Living">Home & Living</option>
+            <option value="Food & Beverage">Food & Beverage</option>
+          </select>
+
+          <select class="filter-select" id="status-filter" aria-label="Filter by status">
+            <option value="All">All Statuses</option>
+            <option value="Completed">Completed</option>
+            <option value="Pending">Pending</option>
+            <option value="Failed">Failed</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Responsive Table Grid -->
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Transaction ID</th>
+              <th scope="col">Date & Time</th>
+              <th scope="col">Customer</th>
+              <th scope="col">Category</th>
+              <th scope="col">Amount</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody id="transactions-body">
+            <!-- Dynamically populated via dashboard.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+  
+  <!-- Dashboard JavaScript Logic -->
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
