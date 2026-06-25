@@ -181,10 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
             display: false
           },
           tooltip: {
-            backgroundColor: '#0f172a',
-            titleColor: '#fff',
-            bodyColor: '#e2e8f0',
-            borderColor: 'rgba(255,255,255,0.08)',
+            backgroundColor: '#ffffff',
+            titleColor: '#1f2937',
+            bodyColor: '#4b5563',
+            borderColor: 'rgba(0,0,0,0.08)',
             borderWidth: 1,
             callbacks: {
               label: function(context) {
@@ -196,21 +196,21 @@ document.addEventListener('DOMContentLoaded', () => {
         scales: {
           x: {
             grid: {
-              color: 'rgba(255, 255, 255, 0.05)',
+              color: 'rgba(0, 0, 0, 0.05)',
               borderColor: 'transparent'
             },
             ticks: {
-              color: '#9ca3af',
+              color: '#6b7280',
               font: { family: 'Outfit', size: 11 }
             }
           },
           y: {
             grid: {
-              color: 'rgba(255, 255, 255, 0.05)',
+              color: 'rgba(0, 0, 0, 0.05)',
               borderColor: 'transparent'
             },
             ticks: {
-              color: '#9ca3af',
+              color: '#6b7280',
               font: { family: 'Outfit', size: 11 },
               callback: function(value) {
                 if (value >= 1e6) {
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
             '#f43f5e'  // rose
           ],
           borderWidth: 2,
-          borderColor: '#0f172a'
+          borderColor: '#ffffff'
         }]
       },
       options: {
@@ -266,16 +266,16 @@ document.addEventListener('DOMContentLoaded', () => {
           legend: {
             position: 'bottom',
             labels: {
-              color: '#9ca3af',
+              color: '#6b7280',
               font: { family: 'Outfit', size: 12 },
               padding: 16
             }
           },
           tooltip: {
-            backgroundColor: '#0f172a',
-            titleColor: '#fff',
-            bodyColor: '#e2e8f0',
-            borderColor: 'rgba(255,255,255,0.08)',
+            backgroundColor: '#ffffff',
+            titleColor: '#1f2937',
+            bodyColor: '#4b5563',
+            borderColor: 'rgba(0,0,0,0.08)',
             borderWidth: 1,
             callbacks: {
               label: function(context) {
