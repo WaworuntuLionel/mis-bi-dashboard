@@ -1,0 +1,128 @@
+[
+  {
+    "id": "TX-1001",
+    "date": "2026-06-20T09:30:00Z",
+    "customer": "Ahmad Subarjo",
+    "category": "Electronics",
+    "amount": 1250000,
+    "status": "Success",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "id": "TX-1002",
+    "date": "2026-06-20T10:15:00Z",
+    "customer": "Siti Aminah",
+    "category": "Fashion",
+    "amount": 450000,
+    "status": "Success",
+    "payment_method": "E-Wallet"
+  },
+  {
+    "id": "TX-1003",
+    "date": "2026-06-21T11:00:00Z",
+    "customer": "Budi Setiawan",
+    "category": "Groceries",
+    "amount": 150000,
+    "status": "Success",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": "TX-1004",
+    "date": "2026-06-21T14:45:00Z",
+    "customer": "Dewi Lestari",
+    "category": "Electronics",
+    "amount": 3200000,
+    "status": "Pending",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "id": "TX-1005",
+    "date": "2026-06-22T08:20:00Z",
+    "customer": "Eko Prasetyo",
+    "category": "Home & Living",
+    "amount": 890000,
+    "status": "Success",
+    "payment_method": "E-Wallet"
+  },
+  {
+    "id": "TX-1006",
+    "date": "2026-06-22T13:10:00Z",
+    "customer": "Farhan Wijaya",
+    "category": "Groceries",
+    "amount": 75000,
+    "status": "Failed",
+    "payment_method": "Cash on Delivery"
+  },
+  {
+    "id": "TX-1007",
+    "date": "2026-06-23T15:30:00Z",
+    "customer": "Gita Permata",
+    "category": "Fashion",
+    "amount": 620000,
+    "status": "Success",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": "TX-1008",
+    "date": "2026-06-23T16:50:00Z",
+    "customer": "Hendra Wijaya",
+    "category": "Electronics",
+    "amount": 1850000,
+    "status": "Success",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "id": "TX-1009",
+    "date": "2026-06-24T09:05:00Z",
+    "customer": "Indah Sari",
+    "category": "Home & Living",
+    "amount": 120000,
+    "status": "Success",
+    "payment_method": "E-Wallet"
+  },
+  {
+    "id": "TX-1010",
+    "date": "2026-06-24T10:40:00Z",
+    "customer": "Joko Susilo",
+    "category": "Fashion",
+    "amount": 980000,
+    "status": "Pending",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "id": "TX-1011",
+    "date": "2026-06-24T11:15:00Z",
+    "customer": "Kartika Putri",
+    "category": "Electronics",
+    "amount": 4200000,
+    "status": "Success",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": "TX-1012",
+    "date": "2026-06-24T14:30:00Z",
+    "customer": "Lukman Hakim",
+    "category": "Groceries",
+    "amount": 320000,
+    "status": "Success",
+    "payment_method": "E-Wallet"
+  },
+  {
+    "id": "TX-1013",
+    "date": "2026-06-25T08:10:00Z",
+    "customer": "Mega Utami",
+    "category": "Fashion",
+    "amount": 540000,
+    "status": "Success",
+    "payment_method": "Credit Card"
+  },
+  {
+    "id": "TX-1014",
+    "date": "2026-06-25T09:00:00Z",
+    "customer": "Novianti",
+    "category": "Home & Living",
+    "amount": 1500000,
+    "status": "Success",
+    "payment_method": "Bank Transfer"
+  }
+]
